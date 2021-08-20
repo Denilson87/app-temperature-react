@@ -1,4 +1,4 @@
 <h6 align="center">
-React Temperatura local e das cidades 
+React app, Temperatura local e das cidades 
 </h6>
 
