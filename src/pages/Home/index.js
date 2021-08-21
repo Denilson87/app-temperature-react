@@ -52,10 +52,10 @@ const Home = () => {
         if (selectCity === '') {
             return
         } else {
-            setselectCity(selectCity.charAt(0).toUpperCase());
+//             setselectCity(selectCity.charAt(0).toUpperCase());
             const latlng = cities.filter(d => d.name === selectCity)
             if (latlng.length === 0) {
-                alert("Cidade não localizada")
+                alert("Erro! a primeira letra da cidade deve ser mamaiuscula!")
             } else {
                 const lat = latlng[0]['lat']
                 const lng = latlng[0]['lng']
